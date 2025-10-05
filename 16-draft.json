@@ -1404,30 +1404,8 @@
                       "value",
                       "unit"
                     ]
-                  },
-                  "PM0.3": {
-                    "description": "Concentration of particulate matter with a diameter of 0.3µm or less.",
-                    "type": "object",
-                    "properties": {
-                      "value": {
-                        "description": "The measurement value",
-                        "type": "number",
-                        "minimum": 0
-                      },
-                      "unit": {
-                        "description": "The measurement unit",
-                        "type": "string",
-                        "enum": [
-                          "µg/m³"
-                        ]
-                      }
-                    },
-                    "required": [
-                      "value",
-                      "unit"
-                    ]
                   }
-                }
+		}
               },
               "location": {
                 "description": "Location the measurement relates to, e.g. <samp>Hackerspace</samp>.",
